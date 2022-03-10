@@ -2,7 +2,7 @@ CREATE TABLE if not exists PlayerData(player_id int auto_increment PRIMARY KEY, 
 player_num int, player_name varchar(100) not null, player_pos varchar(2), PTS int, REB int, AST int, BLK int,
 GP int, FGM int, FGA int, three_PM int, three_PA int, FTM int, FTA int, STL int, PF int);
 
-INSERT into RosterData(Team_id, Player_num, Player_name, Player_pos, PTS, REB, AST, BLK, GP, FGM, FGA, Three_PM, Three_PA, FTM, FTA, STL, PF)
+INSERT into PlayerData(Team_id, Player_num, Player_name, Player_pos, PTS, REB, AST, BLK, GP, FGM, FGA, Three_PM, Three_PA, FTM, FTA, STL, PF)
 VALUES (1, 6, "Lebron James", "PG", 1125, 350, 277, 27, 45, 484, 928, 104, 284, 180, 252, 69, 97),
 (1, 5, "Talen Horten-Tucker", "SF", 585, 34, 181, 21, 65, 39, 221, 488, 130, 98, 130, 65, 130),
 (1, 7, "Carmelo Anthony", "PF", 720, 223, 53, 43, 53, 244, 557, 122, 318, 106, 127, 42, 122),
