@@ -2,7 +2,9 @@
 --See MySqlConnection ctx = {}; for password;
 --If database name & password are not made in MySQL, these references must be made in numerous locations within MVC
 
+ALTER USER root@localhost IDENTIFIED BY gen$park0;
 
+CREATE SCHEMA genspark_proj;
 CREATE TABLE if not exists TeamData(
 team_id int auto_increment PRIMARY KEY,
 team_name varchar(45) not null,
