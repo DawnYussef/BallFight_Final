@@ -1,6 +1,6 @@
 --Database name: genspark_proj
 --See MySqlConnection ctx = {}; for password;
---If database name & password are not made in MySQL, these references must be made in numerous location within MVC
+--If database name & password are not made in MySQL, these references must be made in numerous locations within MVC
 
 CREATE TABLE if not exists PlayerData(player_id int auto_increment PRIMARY KEY, team_id int FOREIGN KEY,
 player_num int, player_name varchar(100) not null, player_pos varchar(2), PTS int, REB int, AST int, BLK int,
